@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пошук авто</title>
+    <style>
+        table{
+            margin-left: auto;
+    margin-right: auto;
+    width: 6em
+        }
+        body{
+    background-image: url(../img/16371742441401128.jpg);
+ }
+    </style>
+</head>
+<body>
+    <table border="10" cellspasing="0" style="background-color: white;">
+        <form action=" https://fom.in.ua/echo" target="_blank">
+            <tr>
+                <td> 
+                 <label>Тип кузова:
+                    <select name="Тип кузова:">
+                        <option value="Седан">Седан</option>
+                        <option value="Хэтчбек">Хэтчбек</option>
+                        <option value="Универсал">Универсал</option>
+                        <option value="Лифтбэк">Лифтбэк</option>
+                        <option value="Купе">Купе</option>
+                    </select>
+                 </label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Марка авто: <br>
+                        <select name="Марка авто:">
+                         <option value="BMW">BMW</option>
+                         <option value="AUDI">AUDI</option>
+                         <option value="RENO">RENO</option>
+                        </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Країна виробник:
+                        <select name="Країна виробник:">
+                            <option value="США">США</option>
+                            <option value="Корея">Корея</option>
+                            <option value="Німеччина">Німеччина</option>
+                           </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label >Ціна $: <br>Від                       
+                        <input type="text"name="Ціна від $:">до<input type="text" name="Ціна до $:">
+
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Рік випуску: <br>Від                       
+                        <input type="text" name="Рік випуску від:">до<input type="text" name="Рік випуску до:">
+
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Стан:<br>
+                     <label>Бита<input type="radio" name="Бита"></label><br>
+                     <label>У кредиті<input type="radio" name="У кредиті"></label><br>
+                     <label>Нерозмитнена<input type="radio" name="Нерозмитнена"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>Тип палива:<br>
+                     <label>Бензин<input type="radio"></label><br>
+                     <label>Дизель<input type="radio"></label><br>
+                     <label>Електро<input type="radio"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Колір: <br><input type="color" name="Колір:"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=""><input type="submit" value="Пошук"></label>
+                </td>
+            </tr>
+
+        </form>
+    </table>
+    <ul>
+        <li><a href="../1.html"> Регестрація</a></li>
+        <li><a href="./2.html">Вхід</a></li>
+    </ul>
+</body>
+</html>
